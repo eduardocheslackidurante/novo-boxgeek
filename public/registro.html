@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Painel Administrativo</title>
-  <link rel="stylesheet" href="registro.css"><!-- seu CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="registro.css">
+    <title>Painel Administrativo</title>
 </head>
+
 <body>
+
   <!-- Sidebar -->
   <div class="sidebar">
     <h2>Admin</h2>
-    <a href="#" class="nav-link">📊 Dashboard</a>
-    <a href="#" class="nav-link">👥 Usuários</a>
-    <a href="#" class="nav-link">💰 Vendas</a>
-    <a href="#" class="nav-link">📈 Relatórios</a>
-    <a href="#" class="nav-link">⚙️ Configurações</a>
+    <a href="registro.html" class="nav-link">📊 Dashboard</a>
+    <a href="#" class="nav-link">👥 clientes</a>
+    <a href="#" class="nav-link">💰 vendas</a>
+    <a href="#" class="nav-link">📈 </a>
+    <a href="#" class="nav-link">⚙️ </a>
   </div>
 
   <!-- Main -->
   <div class="main">
     <header>
-      <h1>Painel Administrativo</h1>
+        <div class="logo-container">
+        <img class="logo" src="imagens/Planet.png" alt="logo">
+        <img class="logo" src="imagens/Juke.png" alt="logo secundária">
       <button class="logout-btn">Sair</button>
     </header>
 
@@ -28,19 +34,19 @@
     <div class="cards">
       <div class="card">
         <h3>Usuários</h3>
-        <h2 id="usersCount">120</h2>
+        <h2 id="usersCount">0</h2>
       </div>
       <div class="card">
         <h3>Vendas</h3>
-        <h2 id="salesCount">340</h2>
+        <h2 id="salesCount">0</h2>
       </div>
       <div class="card">
         <h3>Lucro</h3>
-        <h2 id="profitValue">R$ 12.300</h2>
+        <h2 id="profitValue">R$ 0,0</h2>
       </div>
       <div class="card">
         <h3>Produtos</h3>
-        <h2 id="productsCount">58</h2>
+        <h2 id="productsCount">0</h2>
       </div>
     </div>
 
